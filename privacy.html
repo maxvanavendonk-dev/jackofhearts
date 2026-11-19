@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Jack of Hearts Pipeline app.">
+<style>
+  :root {
+    --bg: #ffffff; --text: #16181d; --muted: #4a4f5a; --link: #1d4ed8; --rule: #d5d8de;
+    --space-sm: 0.5rem; --space-md: 1rem; --space-lg: 2rem; --space-xl: 3rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111317; --text: #eceef2; --muted: #b3b8c2; --link: #93b4ff; --rule: #2c3038; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 1rem/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 65ch; margin: 0 auto; padding: var(--space-xl) var(--space-md); }
+  h1 { font-size: 2.25rem; line-height: 1.25; font-weight: 700; margin: 0 0 var(--space-sm); }
+  h2 { font-size: 1.25rem; line-height: 1.25; font-weight: 600; margin: var(--space-lg) 0 var(--space-sm); }
+  p, ul { margin: 0 0 var(--space-md); }
+  li { margin-bottom: var(--space-sm); }
+  .meta { color: var(--muted); }
+  a { color: var(--link); text-underline-offset: 0.15em; }
+  a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+  footer { border-top: 1px solid var(--rule); margin-top: var(--space-xl); padding-top: var(--space-md);
+           color: var(--muted); font-size: 0.875rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Jack of Hearts Pipeline. Last updated 19 November 2026.</p>
+
+  <h2>Who this applies to</h2>
+  <p>The Jack of Hearts Pipeline is a private tool used only by the owner of the Jack of Hearts YouTube channel. It is not offered to the public, and no other person signs in to it.</p>
+
+  <h2>What data the app accesses</h2>
+  <p>When the channel owner signs in with Google, the app asks for these permissions, and uses them only for the channel owner's own channel:</p>
+  <ul>
+    <li><strong>Upload videos</strong> (youtube.upload): to upload the channel's own finished videos, with title, description, tags and thumbnail.</li>
+    <li><strong>View the YouTube account</strong> (youtube.readonly): to confirm it is connected to the right channel and to check whether a video was already uploaded, so nothing is uploaded twice.</li>
+    <li><strong>View YouTube Analytics reports</strong> (yt-analytics.readonly): to read view counts, watch time and similar statistics for the channel's own videos.</li>
+  </ul>
+
+  <h2>How data is stored</h2>
+  <p>The sign-in token and the statistics are stored only on the channel owner's own computer, in a file that only that user account can read. The app has no server and no database outside that computer.</p>
+
+  <h2>Sharing</h2>
+  <p>Data from Google APIs is not sold, shared with, or transferred to any third party, and it is not used for advertising. It is used only to run the channel as described above.</p>
+  <p>The app's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>YouTube</h2>
+  <p>The app uses YouTube API Services. By using it you are also subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>Removing access and data</h2>
+  <p>Access can be revoked at any time on the <a href="https://myaccount.google.com/permissions">Google Account permissions page</a>. Deleting the token file on the owner's computer removes all stored sign-in data.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: message the <a href="https://www.youtube.com/channel/UCSKUO5Timow6-A0MRp368qA">Jack of Hearts channel on YouTube</a>.</p>
+
+  <footer>
+    <p><a href="index.html">Jack of Hearts home</a></p>
+  </footer>
+</main>
+</body>
+</html>
